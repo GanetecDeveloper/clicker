@@ -37,6 +37,8 @@ export class HomePageTheme {
       --mdc-theme-primary: var(--theme-color-secondary);
       max-width: 250px;
       margin: 10px;
+      margin-left: auto;
+      margin-right: auto;
     }
 
   `;

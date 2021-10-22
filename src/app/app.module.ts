@@ -4,9 +4,9 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 
-import { UserService } from './services/user.service';
 import { WcTheme } from './modules/web-components/wc-theme/WcTheme';
-import { StorageService } from './services/storage.service';
+import { ServiceWorkerModule } from '@angular/service-worker';
+import { environment } from '../environments/environment';
 new WcTheme().loadHeadStyles();
 
 @NgModule({
@@ -15,13 +15,16 @@ new WcTheme().loadHeadStyles();
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    ServiceWorkerModule.register('ngsw-worker.js', {
+      enabled: environment.production,
+      // Register the ServiceWorker as soon as the app is stable
+      // or after 30 seconds (whichever comes first).
+      registrationStrategy: 'registerWhenStable:30000'
+    })
   ],
   schemas: [CUSTOM_ELEMENTS_SCHEMA],
-  providers: [
-    UserService,
-    StorageService
-  ],
+  providers: [],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

@@ -3,4 +3,6 @@ export interface UserProfile {
     autoClickerCost?: number;
     autoClickerBaseCost: number;
     autoClickerTime: number;
+    points?: number;
+    autoClickers?: number;
 }

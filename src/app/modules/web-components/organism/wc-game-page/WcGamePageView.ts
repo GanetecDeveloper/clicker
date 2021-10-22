@@ -1,6 +1,7 @@
 import { html, nothing, TemplateResult } from 'lit-html';
 import { GamePageTheme } from './css/GamePageTheme.css';
 import { CSSResultArray } from 'lit-element';
+import { ifDefined } from 'lit-html/directives/if-defined.js';
 import { WcGamePageViewModel } from './WcGamePageViewModel';
 
 export class WcGamePageView extends WcGamePageViewModel {
@@ -16,18 +17,27 @@ export class WcGamePageView extends WcGamePageViewModel {
 
   protected renderHeader = (): TemplateResult => html`
     <mwc-top-app-bar-fixed dense centerTitle>
-      <div slot = "title">Hi, ${this.user.name}</div>
-      <mwc-icon-button
-        icon="pause"
-        slot="actionItems"
-        @click=${() => this._tooglePause()}>
-      </mwc-icon-button>
-      <mwc-icon-button
-        icon="arrow_forward_ios"
-        slot="actionItems"
-        @click=${() => this._exit()}>
-      </mwc-icon-button>
+      <div slot="title">${this.renderTitle()}</div>
+      ${this.renderPauseButton()}
+      ${this.renderExitButton()}
     </mwc-top-app-bar-fixed>`;
+
+  protected renderTitle = (): TemplateResult => html`
+    Hi, ${ifDefined(this.user!.name)}`;
+
+  protected renderPauseButton = (): TemplateResult => html`
+    <mwc-icon-button
+      icon="pause"
+      slot="actionItems"
+      @click=${() => this._tooglePause()}>
+    </mwc-icon-button>`;
+
+  protected renderExitButton = (): TemplateResult => html`
+    <mwc-icon-button
+      icon="arrow_forward_ios"
+      slot="actionItems"
+      @click=${() => this._exit()}>
+    </mwc-icon-button>`;
 
   protected renderPoints = (): TemplateResult => html`
     <h3>Merged pull request: ${this.points}</h3>
@@ -40,7 +50,8 @@ export class WcGamePageView extends WcGamePageViewModel {
     </mwc-button>`;
 
   protected renderBuyButton = (): TemplateResult => html`
-    <mwc-button raised label="Buy auto merger (${this.user.autoClickerCost})"
+    <mwc-button raised
+      label="Buy auto merger (${this.autoClickerCost})"
       ?disabled=${this.isButtonDisabled()}
       @click=${() => this._addAutoclicker()}>
     </mwc-button>`;

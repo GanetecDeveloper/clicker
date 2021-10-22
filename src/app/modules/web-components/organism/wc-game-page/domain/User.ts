@@ -4,6 +4,8 @@ export class User implements IUser {
     autoClickerCost: number = 10;
     autoClickerBaseCost: number = 10;
     autoClickerTime: number = 100;
+    points: number = 0;
+    autoClickers: number = 0;
 
     constructor(user: IUser) {
         Object.assign(this, user);
@@ -22,4 +24,6 @@ export interface IUser {
     autoClickerCost?: number;
     autoClickerBaseCost: number;
     autoClickerTime: number;
+    points?: number;
+    autoClickers?: number;
 }
