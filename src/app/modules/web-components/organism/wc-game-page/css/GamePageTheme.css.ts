@@ -1,6 +1,13 @@
 import { css, CSSResult, CSSResultArray } from 'lit-element';
 
+/**
+ * Estilos del componente GamePage
+ */
 export class GamePageTheme {
+
+  /**
+ * Estilos base del componente GamePage
+ */
   static baseStyle: CSSResult = css`
     :host {
       display: grid;

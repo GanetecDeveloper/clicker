@@ -1,5 +1,8 @@
 import { css, CSSResult } from "lit-element";
 
+/**
+ * Variables para los colores de la aplicación siguiendo las recomendaciones de Material Design.
+ */
 export const themeColor: CSSResult = css`
   body{
     --theme-color-primary: #004481; /* 800*/

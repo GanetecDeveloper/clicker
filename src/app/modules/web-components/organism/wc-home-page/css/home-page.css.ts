@@ -1,6 +1,13 @@
 import { css, CSSResult, CSSResultArray } from 'lit-element';
 
+/**
+ * Estilos del componente HomePage
+ */
 export class HomePageTheme {
+
+  /**
+   * Estilos base del componente HomePage
+   */
   static baseStyle: CSSResult = css`
     :host {
       display: grid;

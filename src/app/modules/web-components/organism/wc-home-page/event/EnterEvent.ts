@@ -1,5 +1,11 @@
+/**
+ * Evento personalizadao de entrada.
+ */
 export class EnterEvent extends CustomEvent<EnterEventDetail> { }
 
+/**
+ * Clase que contiene los detalles del evento de entrada.
+ */
 export class EnterEventDetail {
 
   private _name: string;

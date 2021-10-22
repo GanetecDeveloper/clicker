@@ -8,7 +8,9 @@ import '@material/mwc-button';
 import '@material/mwc-textfield';
 import '@material/mwc-icon-button';
 
-
+/**
+ * Módulo Home
+ */
 @NgModule({
   declarations: [
     HomeComponent

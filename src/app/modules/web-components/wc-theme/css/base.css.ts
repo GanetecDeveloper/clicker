@@ -1,5 +1,8 @@
 import { css, CSSResult } from "lit-element";
 
+/**
+ * Estilos base para el tema de la aplicación.
+ */
 export const themeBase: CSSResult = css`
   h1 {
     font: normal normal bold 24px/28px var(--theme-typo, "Noto Sans HK");
