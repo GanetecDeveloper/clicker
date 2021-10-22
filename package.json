@@ -5,11 +5,12 @@
     "ng": "ng",
     "start": "ng serve --open",
     "build": "ng build",
+    "build:prod": "ng build --prod --base-href \"https://GanetecDeveloper.github.io/clicker/\"",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "lint": "eslint . --ext .ts",
     "gendoc": "npx compodoc -p tsconfig.doc.json -s --disablePrivate --disableLifeCycleHooks",
-    "deploy": "ng build --prod --base-href \"https://GanetecDeveloper.github.io/clicker/\" && npx angular-cli-ghpages --dir=dist/clicker"
+    "deploy": "npm run build:prod && npx angular-cli-ghpages --dir=dist/clicker"
   },
   "private": true,
   "dependencies": {

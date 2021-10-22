@@ -1,4 +1,4 @@
-import { LitElement, property } from 'lit-element';
+import { LitElement } from 'lit-element';
 import { EnterEvent, EnterEventDetail } from './event/EnterEvent';
 
 /**
