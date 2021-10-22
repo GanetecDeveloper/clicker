@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1634910647562,
+  "timestamp": 1634924629572,
   "index": "https://GanetecDeveloper.github.io/clicker/index.html",
   "assetGroups": [
     {
@@ -12,14 +12,14 @@
       },
       "urls": [
         "https://GanetecDeveloper.github.io/clicker/382.541eb01a15bf814bc497.js",
-        "https://GanetecDeveloper.github.io/clicker/405.bda8e40ebbd191d0e137.js",
-        "https://GanetecDeveloper.github.io/clicker/876.f84ccdad6004539c6be1.js",
+        "https://GanetecDeveloper.github.io/clicker/405.4187311a426b04c55f28.js",
+        "https://GanetecDeveloper.github.io/clicker/876.cd238435c1304aa8036e.js",
         "https://GanetecDeveloper.github.io/clicker/favicon.ico",
         "https://GanetecDeveloper.github.io/clicker/index.html",
-        "https://GanetecDeveloper.github.io/clicker/main.4369318c9a291e0edd0f.js",
+        "https://GanetecDeveloper.github.io/clicker/main.3086d0a68b4fe9476eb3.js",
         "https://GanetecDeveloper.github.io/clicker/manifest.webmanifest",
         "https://GanetecDeveloper.github.io/clicker/polyfills.593ed48f5359c67eaf44.js",
-        "https://GanetecDeveloper.github.io/clicker/runtime.1f556d6ec9309221fe33.js",
+        "https://GanetecDeveloper.github.io/clicker/runtime.ae08fa92b843ffcba1fd.js",
         "https://GanetecDeveloper.github.io/clicker/styles.0b200a5a20c4130e1b8a.css"
       ],
       "patterns": []
@@ -47,8 +47,8 @@
   "dataGroups": [],
   "hashTable": {
     "https://GanetecDeveloper.github.io/clicker/382.541eb01a15bf814bc497.js": "b36d6d8c24f29c660828ec12640232fa5df3dbfe",
-    "https://GanetecDeveloper.github.io/clicker/405.bda8e40ebbd191d0e137.js": "4e216dc3b0e9a8e8f4b5654581dbe0bfbcd661a1",
-    "https://GanetecDeveloper.github.io/clicker/876.f84ccdad6004539c6be1.js": "27f1bdff5c6da46ad1846a654f75def12f7d54b1",
+    "https://GanetecDeveloper.github.io/clicker/405.4187311a426b04c55f28.js": "614840b151f9a27ab9199135425a25cb77ad585b",
+    "https://GanetecDeveloper.github.io/clicker/876.cd238435c1304aa8036e.js": "dc5ec39a460a58f6e0c968cab0ad3ab145d540fc",
     "https://GanetecDeveloper.github.io/clicker/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
     "https://GanetecDeveloper.github.io/clicker/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
     "https://GanetecDeveloper.github.io/clicker/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
@@ -58,11 +58,11 @@
     "https://GanetecDeveloper.github.io/clicker/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
     "https://GanetecDeveloper.github.io/clicker/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
     "https://GanetecDeveloper.github.io/clicker/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
-    "https://GanetecDeveloper.github.io/clicker/index.html": "0828bf02b6a4cd1c78960a64f79634efae55e682",
-    "https://GanetecDeveloper.github.io/clicker/main.4369318c9a291e0edd0f.js": "449043bafa1a1aba650675dffe579d5c14e8af5d",
+    "https://GanetecDeveloper.github.io/clicker/index.html": "515b30d64f0b1b056e222e2212c6404c6dff1329",
+    "https://GanetecDeveloper.github.io/clicker/main.3086d0a68b4fe9476eb3.js": "449043bafa1a1aba650675dffe579d5c14e8af5d",
     "https://GanetecDeveloper.github.io/clicker/manifest.webmanifest": "8854c5234476c0eb5fc589027f36f433ffd66240",
     "https://GanetecDeveloper.github.io/clicker/polyfills.593ed48f5359c67eaf44.js": "cc54e1498176bbd8ff479cebf2d7b8141b5f8272",
-    "https://GanetecDeveloper.github.io/clicker/runtime.1f556d6ec9309221fe33.js": "08e195d5fc009657d6d45ff13ae22713174b35ad",
+    "https://GanetecDeveloper.github.io/clicker/runtime.ae08fa92b843ffcba1fd.js": "0423f4c79b6161a7c664548c665f289aa44fad6c",
     "https://GanetecDeveloper.github.io/clicker/styles.0b200a5a20c4130e1b8a.css": "f510cda71b5fd1eab0cd956f4d169e9608b70c5f"
   },
   "navigationUrls": [
